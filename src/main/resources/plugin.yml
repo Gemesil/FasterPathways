@@ -1,0 +1,4 @@
+name: FasterPathways
+version: '${project.version}'
+main: gemesil.fasterpathways.FasterPathways
+api-version: 1.19
