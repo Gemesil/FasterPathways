@@ -1,9 +1,10 @@
-# FasterPathways Plugin
+[![Maven Package](https://github.com/Gemesil/FasterPathways/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/Gemesil/FasterPathways/actions/workflows/maven-publish.yml)
+
 <p align="center">
   <img src="icons/icon.png" width="200">
 </p>
 
-
+# FasterPathways Plugin
 **FasterPathways** is a Minecraft 1.19.2 plugin that enhances your travel experience by granting a speed effect when stepping on a dirt path block. By creating long chain path block roads, you can enjoy swifter transportation in your Minecraft world. This plugin aims to make your journeys more enjoyable and efficient.
 
 ## Features
