@@ -45,12 +45,9 @@ public final class FasterPathways extends JavaPlugin implements Listener {
         final Player player = event.getPlayer();
         final Block block = player.getLocation().getBlock();
         final Block relativeBlock = player.getLocation().getBlock().getRelative(BlockFace.DOWN);
-        getLogger().info(player.getName() + ":" + block.getType().name() + ":" + relativeBlock.getType().name());
-
 
         // player stepping on path block
         if (relativeBlock.getType() == Material.DIRT_PATH || block.getType() == Material.DIRT_PATH) {
-            getLogger().info(player.getName() + " stepped on a dirt path!");
             player.addPotionEffect(speed_effect);
             player.spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(ChatColor.YELLOW + actionBarMessage));
         }
