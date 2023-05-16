@@ -1,4 +1,6 @@
 # FasterPathways Plugin
+<img src="icons/icon.png" width="300">
+
 **FasterPathways** is a Minecraft 1.19.2 plugin that enhances your travel experience by granting a speed effect when stepping on a dirt path block. By creating long chain path block roads, you can enjoy swifter transportation in your Minecraft world. This plugin aims to make your journeys more enjoyable and efficient.
 
 ## Features
